@@ -1,10 +1,14 @@
 import React from "react";
-import Header from "./Header"
+import Header from "./Header";
+import Footer from "./Footer";
+import Note from "./Note";
 
 function App(){
-   return <div>
+   return (<div>
       <Header />
-   </div>
+      <Note />
+      <Footer />
+   </div>);
 }
 
-export default app;
+export default App;
